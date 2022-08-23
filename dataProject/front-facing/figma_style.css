@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Pru33qjShpZSmG3z6VYwnT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/Xyjz-jNkfiYuJf8UC3Lizw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/oOeFwZNlrTefzLYmlVV1UD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/97uahxiqZRoncBaCEI3aWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/7m8l7TlFO-S3VkhHuR0at9Ih4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Italic'), local('Roboto-Italic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/dFWsweFqlD8ExfyN7Gh_GPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/OLffGBTaF0XFOW1gnuHF0dIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/t6Nd4cfPRhZP44Q5QAjcC9Ih4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+
+*{
+    font-family: 'Roboto Light';
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 373px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4F2;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+    position: absolute;
+    left: 50.65%;
+    right: 56.77%;
+    top: 9%;
+    bottom: 78.8%;
+}
+
+nav ul li{
+    margin: 2rem;
+    background-color: #495464;
+    padding: .5em 2em;
+    text-decoration: none;
+    display: flex;
+}
+
+nav ul li a, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #495464;
+    color: white;
+    border: 2px solid #495464;
+}
+
+.button-header, #button-header{
+    padding: 25px;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    right: 57.71%;
+    top: 79.4%;
+    bottom: 15%;
+    background: #495464;
+    font-size: 20px;
+}
+
+.header-title{
+    position: absolute;
+    left: 36%;
+    right: 30.1%;
+    top: 24%;
+    bottom: 51%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 42px;
+    color: #495464;
+}
+
+.header-info{
+    position: absolute;
+    left: 20.6%;
+    right: 21.09%;
+    top: 40.5%;
+    bottom: 39.6%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 33px;
+    color: #495464;
+    text-align: center;
+}
+
+.frame-1,.frame-2,.frame-3,.frame-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.2rem;
+
+    position: absolute;
+    min-width: 345px;
+    min-height: 332px;
+    left: 20rem;
+    top: 30rem;
+
+    /* dark gray */
+
+    background: #495464;
+}
+
+.frame-2{
+    left:950px;
+}
+
+.content-1,.content-2,.content-3,.content-4{
+    max-width: 220px;
+    min-height: 281px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content-title-1,.content-title-2,.content-title-3,.content-title-4{
+    position: absolute;
+    max-width: 205px;
+    min-height: 22px;
+    left: 6.3rem;
+    top: 5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.frame-1{
+    left:17rem;
+}
+.frame-3{
+    left: -177%;
+}
+
+.frame-4{
+    left:0;
+}
+
+.content-info-1,.content-info-2,.content-info-3,.content-info-4{
+    position: absolute;
+    max-width: 220px;
+    min-height: 120px;
+    left: 80.5px;
+    top: 166.5px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top:40px;
+    text-align: center;
+
+    /* middle gray */
+
+    color: #E8E8E8;
+}
+
+.content-title-2{
+    left:160px;
+}
+.content-title-3{
+    left:115px;
+}
+.content-title-4{
+    left:155px;
+}
+
+.material-symbols-outlined{
+    margin-top: -20px;
+    margin-bottom:30px;
+    text-decoration: none;
+    color:white;
+}
+
+.icon-1{
+    margin-left:4.5rem;
+}
+
+.icon-2{
+    margin-left:1rem;
+}
+
+.icon-3{
+    margin-left:3.7rem;
+}
+
+.icon-4{
+    margin-left:1.2rem;
+}
+
+@media (max-width: 60rem){
+    body{
+        color: pink;
+        background-color: purple;
+    }
+
+    .header-content{
+        top:3rem;
+    }
+
+    .frame-1{
+        left: 24.5%;
+    }
+
+    .frame-2, .frame-4{
+        top: 60rem;
+        left: 24.5%;
+        margin: auto;
+    }
+
+    .frame-3{
+        left: 0rem;
+    }
+    .frame-4{
+        left: 0rem;
+    }
+
+    .header-info{
+        font-size: 2vw;
+        line-height: 3vw;
+        max-height:5vw;
+    }
+
+    .header-title{
+        font-size: 4vw;
+        width: 60vw;
+        left: 20%;
+    }
+}

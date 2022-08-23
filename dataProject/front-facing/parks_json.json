@@ -1,0 +1,86 @@
+{
+    "Martinez Playground": {
+        "distance": 0.23,
+        "coords": [
+            40.709313250913944,
+            -73.94435119043847
+        ]
+    },
+    "Ten Eyck Plaza": {
+        "distance": 0.49,
+        "coords": [
+            40.70955758225194,
+            -73.9493420398305
+        ]
+    },
+    "Bushwick Playground": {
+        "distance": 0.45,
+        "coords": [
+            40.70155741837175,
+            -73.93961969948208
+        ]
+    },
+    "Sternberg Park": {
+        "distance": 0.37,
+        "coords": [
+            40.70617987422546,
+            -73.94693299279501
+        ]
+    },
+    "Memorial Gore": {
+        "distance": 0.48,
+        "coords": [
+            40.71479921336586,
+            -73.9425071167166
+        ]
+    },
+    "Lindsay Triangle": {
+        "distance": 0.49,
+        "coords": [
+            40.70407564936107,
+            -73.94812069312016
+        ]
+    },
+    "St Nicholas-powers St Garden": {
+        "distance": 0.34,
+        "coords": [
+            40.71287569578134,
+            -73.93976884562923
+        ]
+    },
+    "Gilbert Ramirez Park": {
+        "distance": 0.3,
+        "coords": [
+            40.70590177237411,
+            -73.93532732908061
+        ]
+    },
+    "Oko Farms Aquaponics Education Garden": {
+        "distance": 0.3,
+        "coords": [
+            40.70381574070051,
+            -73.94133982483244
+        ]
+    },
+    "Orient Grove": {
+        "distance": 0.47,
+        "coords": [
+            40.71484504818227,
+            -73.94056522505133
+        ]
+    },
+    "St Nicholas-olive St Garden": {
+        "distance": 0.37,
+        "coords": [
+            40.713300981637,
+            -73.93891191807619
+        ]
+    },
+    "Sunshine Community Garden": {
+        "distance": 0.28,
+        "coords": [
+            40.70512330683584,
+            -73.94401372223798
+        ]
+    }
+}
